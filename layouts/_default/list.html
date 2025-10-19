@@ -1,0 +1,36 @@
+{{ define "main" }}
+  <section class="page-hero">
+    <div class="container narrow">
+      <p class="eyebrow">{{ .Section | default "Beitraege" }}</p>
+      <h1>{{ .Title }}</h1>
+      {{ with .Content }}
+        <div class="lead">{{ . }}</div>
+      {{ else }}
+        <p class="lead">Alle Artikel, Tutorials und Guides in einer klaren Uebersicht.</p>
+      {{ end }}
+    </div>
+  </section>
+  {{ $paginator := .Paginate (.RegularPagesRecursive) }}
+  <section class="container grid articles-grid">
+    {{ range $paginator.Pages }}
+      <article class="card">
+        <header>
+          <p class="card-eyebrow">{{ .Params.level | default "Guide" }}</p>
+          <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+        </header>
+        <p>{{ .Summary }}</p>
+        <footer class="card-meta">
+          <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "02. Januar 2006" }}</time>
+          <a class="text-link" href="{{ .RelPermalink }}">Weiterlesen</a>
+        </footer>
+      </article>
+    {{ end }}
+  </section>
+  {{ if gt $paginator.TotalPages 1 }}
+    <nav class="pagination container">
+      {{ if $paginator.HasPrev }}<a href="{{ $paginator.Prev.URL }}">Neuere Beitraege</a>{{ end }}
+      <span>Seite {{ $paginator.PageNumber }} von {{ $paginator.TotalPages }}</span>
+      {{ if $paginator.HasNext }}<a href="{{ $paginator.Next.URL }}">Aeltere Beitraege</a>{{ end }}
+    </nav>
+  {{ end }}
+{{ end }}

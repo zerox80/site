@@ -1,0 +1,32 @@
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <h2 class="footer-heading">{{ .Site.Title }}</h2>
+      <p>{{ .Site.Params.description | default "Practical guides to master Linux faster." }}</p>
+    </div>
+    <div>
+      <h3>Newsletter</h3>
+      {{ with .Site.Params.newsletter }}
+        <form class="newsletter-form" action="{{ .action }}" method="post">
+      {{ else }}
+        <form class="newsletter-form" action="#" method="post">
+      {{ end }}
+        <label class="sr-only" for="newsletter-email">E-Mail-Adresse</label>
+        <input id="newsletter-email" name="email" type="email" placeholder="you@example.com" required>
+        <button type="submit" class="btn btn-secondary">Anmelden</button>
+      </form>
+    </div>
+    <div>
+      <h3>Schnelle Links</h3>
+      <ul>
+        {{ range .Site.Menus.footer }}
+          <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+        {{ end }}
+      </ul>
+    </div>
+  </div>
+  <div class="container footer-meta">
+    <span>&copy; {{ now.Format "2006" }} {{ .Site.Title }}. Alle Rechte vorbehalten.</span>
+    <a href="#top" class="back-to-top">Nach oben ^</a>
+  </div>
+</footer>

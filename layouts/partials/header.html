@@ -1,0 +1,22 @@
+<header class="site-header">
+  <div class="container header-bar">
+    <a class="brand" href="{{ .Site.BaseURL }}">
+      <span class="brand-mark">LT</span>
+      <span class="brand-text">{{ .Site.Title }}</span>
+    </a>
+    <button class="nav-toggle" type="button" aria-label="Menue oeffnen" aria-expanded="false" data-target="primary-nav">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <nav id="primary-nav" class="nav-links">
+      {{ $current := . }}
+      {{ range .Site.Menus.main }}
+        <a class="{{ if or ($current.IsMenuCurrent "main" .) ($current.HasMenuCurrent "main" .) }}is-active{{ end }}" href="{{ .URL }}">{{ .Name }}</a>
+      {{ end }}
+      {{ with .Site.Params.cta }}
+        <a class="btn btn-primary" href="{{ .url }}">{{ .label }}</a>
+      {{ end }}
+    </nav>
+  </div>
+</header>

@@ -1,0 +1,23 @@
+{{ partial "head.html" . }}
+<body class="{{ if .IsHome }}is-home{{ else }}is-page{{ end }}">
+  <a class="skip-link" href="#main">Direkt zum Inhalt springen</a>
+  <div id="top"></div>
+  {{ partial "header.html" . }}
+  <main id="main" class="site-main">
+    {{ block "main" . }}{{ end }}
+  </main>
+  {{ partial "footer.html" . }}
+  <script>
+    (function () {
+      const toggle = document.querySelector(".nav-toggle");
+      const nav = document.getElementById(toggle?.getAttribute("data-target"));
+      if (!toggle || !nav) return;
+      toggle.addEventListener("click", function () {
+        const isOpen = toggle.getAttribute("aria-expanded") === "true";
+        toggle.setAttribute("aria-expanded", String(!isOpen));
+        nav.classList.toggle("is-open");
+      });
+    }());
+  </script>
+</body>
+</html>

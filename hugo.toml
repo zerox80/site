@@ -1,0 +1,144 @@
+baseURL = "https://example.org/"
+languageCode = "de-de"
+title = "Linux Tutorial Hub"
+
+[pagination]
+pagerSize = 6
+
+[menu]
+  [[menu.main]]
+    identifier = "learn"
+    name = "Lernpfad"
+    url = "#learn"
+    weight = 10
+  [[menu.main]]
+    identifier = "guides"
+    name = "Guides"
+    url = "#guides"
+    weight = 20
+  [[menu.main]]
+    identifier = "path"
+    name = "Roadmap"
+    url = "#path"
+    weight = 30
+  [[menu.main]]
+    identifier = "community"
+    name = "Community"
+    url = "#community"
+    weight = 40
+
+  [[menu.footer]]
+    name = "Alle Beitraege"
+    url = "/posts/"
+    weight = 10
+  [[menu.footer]]
+    name = "Ueber uns"
+    url = "/about/"
+    weight = 20
+  [[menu.footer]]
+    name = "Kontakt"
+    url = "/contact/"
+    weight = 30
+
+[params]
+description = "Strukturiertes Linux-Wissen mit praxisnahen Uebungen und klaren Lernpfaden."
+
+  [params.cta]
+  label = "Jetzt starten"
+  url = "#guides"
+
+  [params.hero]
+  eyebrow = "Linux lernen leicht gemacht"
+  title = "Baue Schritt fuer Schritt deine Linux-Skills auf"
+  subtitle = "Kompakte Lektionen, interaktive Uebungen und klare Roadmaps - ideal fuer Entwicklerinnen, Admins und alle, die produktiv mit Linux arbeiten wollen."
+  highlights = [
+    "Gefuehrte Lernpfade",
+    "Praxisnahe Uebungen",
+    "Downloadbare Cheatsheets"
+  ]
+    [params.hero.primary_cta]
+    label = "Kostenlos loslegen"
+    url = "/posts/getting-started-linux/"
+    [params.hero.secondary_cta]
+    label = "Lernpfad ansehen"
+    url = "#path"
+    [params.hero.card]
+    title = "So funktioniert es"
+      [[params.hero.card.steps]]
+      title = "Waehle deinen Einstieg"
+      description = "Starte mit dem Grundlagenkurs oder steige in fortgeschrittene Themen ein."
+      [[params.hero.card.steps]]
+      title = "Uebe im Terminal"
+      description = "Setze das Gelernte direkt um - mit realistischen Szenarien."
+      [[params.hero.card.steps]]
+      title = "Ueberpruefe deinen Fortschritt"
+      description = "Checklisten und Quizze zeigen dir, was du bereits beherrschst."
+
+  [params.features]
+  title = "Was du bei uns lernst"
+  subtitle = "Jede Einheit verbindet Theorie mit direkter Anwendung - ideal fuer selbstbestimmtes Lernen."
+    [[params.features.items]]
+    title = "Fundamente meistern"
+    description = "Verstehe Shell, Dateisystem und Benutzerverwaltung von Grund auf."
+    points = [
+      "Interaktive Shell-Demos",
+      "Vergleichstabellen fuer wichtige Kommandos",
+      "Uebungen mit Loesungen"
+    ]
+    [[params.features.items]]
+    title = "Automatisierung beschleunigen"
+    description = "Lerne Bash-Scripting, Cronjobs und wiederverwendbare Workflows."
+    points = [
+      "Best Practices fuer Skript-Struktur",
+      "Debugging-Checklisten",
+      "Vorlagen fuer wiederkehrende Aufgaben"
+    ]
+    [[params.features.items]]
+    title = "Systeme absichern"
+    description = "Baue Security- und Monitoring-Routinen in deinen Alltag ein."
+    points = [
+      "Hardening-Guides",
+      "Monitoring-Stack zum Nachbauen",
+      "Incident-Response-Playbooks"
+    ]
+
+  [params.timeline]
+  title = "Dein Lernpfad"
+  subtitle = "Folge einem klaren Ablauf oder springe direkt zu den Themen, die du brauchst."
+    [[params.timeline.steps]]
+    number = "01"
+    title = "Linux Basics"
+    description = "Mach dich vertraut mit Shell, Paketverwaltung und Dateimanagement."
+    [[params.timeline.steps]]
+    number = "02"
+    title = "Produktiv arbeiten"
+    description = "Automatisiere wiederkehrende Aufgaben und optimiere deinen Workflow."
+    [[params.timeline.steps]]
+    number = "03"
+    title = "Systeme betreiben"
+    description = "Setze Server auf, ueberwache Services und halte Systeme sicher."
+
+  [params.testimonials]
+  title = "Was Lernende sagen"
+  subtitle = "Mehr als 5.000 Menschen haben ihre Linux-Faehigkeiten mit uns ausgebaut."
+    [[params.testimonials.items]]
+    quote = "Die Tutorials erklaeren nicht nur das Was, sondern auch das Warum - grossartig."
+    name = "Elena M."
+    role = "DevOps Engineer"
+    [[params.testimonials.items]]
+    quote = "Dank der Roadmap konnte ich mein erstes Linux-Projekt alleine stemmen."
+    name = "Melvin M."
+    role = "Junior Administrator"
+    [[params.testimonials.items]]
+    quote = "Praegnanz, Verstaendlichkeit, Motivation - genau was ich gesucht habe."
+    name = "Sandra M."
+    role = "Softwareentwicklerin"
+
+  [params.final_cta]
+  title = "Bereit, deine Linux-Reise zu starten?"
+  subtitle = "Hol dir sofort Zugriff auf gefuehrte Tutorials, Cheatsheets und Terminal-Challenges."
+  label = "Jetzt kostenlos registrieren"
+  url = "/contact/"
+
+  [params.newsletter]
+  action = "#"

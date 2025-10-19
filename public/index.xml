@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux Tutorial Hub</title>
+    <link>https://example.org/</link>
+    <description>Recent content on Linux Tutorial Hub</description>
+    <generator>Hugo</generator>
+    <language>de-de</language>
+    <atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://example.org/wasistlinux/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/wasistlinux/</guid>
+      <description>&lt;p&gt;hi&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Kontakt aufnehmen</title>
+      <link>https://example.org/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/contact/</guid>
+      <description>&lt;p&gt;Wir freuen uns auf deine Nachricht! Sende uns dein Anliegen ueber das Formular oder schreibe direkt an &lt;code&gt;support@linuxtutorialhub.de&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Typische Anfragen&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Feedback zu Lernpfaden&lt;/li&gt;&#xA;&lt;li&gt;Vorschlaege fuer neue Tutorials&lt;/li&gt;&#xA;&lt;li&gt;Unterstuetzung bei technischen Problemen&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Wir antworten in der Regel innerhalb von 48 Stunden an Werktagen.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ueber Linux Tutorial Hub</title>
+      <link>https://example.org/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/about/</guid>
+      <description>&lt;p&gt;Der Linux Tutorial Hub hilft Entwicklerinnen, Admins und neugierigen Lernenden dabei, systematisch Linux-Kompetenzen aufzubauen. Wir kombinieren gefuehrte Lernpfade, praxisnahe Uebungen und ein Community-Forum fuer Feedback.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Unsere Prinzipien&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Transparente Schritt-fuer-Schritt-Anleitungen&lt;/li&gt;&#xA;&lt;li&gt;Uebungen mit realistischen Szenarien&lt;/li&gt;&#xA;&lt;li&gt;Kurze Feedback-Loops durch Checklisten und Quizzes&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Du moechtest mitgestalten?&lt;/strong&gt;&#xA;Melde dich unter &lt;code&gt;team@linuxtutorialhub.de&lt;/code&gt; - wir freuen uns ueber Input zu neuen Kursideen oder Bug-Reports.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
