@@ -11,3 +11,4 @@ Wir freuen uns auf deine Nachricht! Sende uns dein Anliegen ueber das Formular o
 - Unterstuetzung bei technischen Problemen
 
 Wir antworten in der Regel innerhalb von 48 Stunden an Werktagen.
+

@@ -12,3 +12,4 @@ Der Linux Tutorial Hub hilft Entwicklerinnen, Admins und neugierigen Lernenden d
 
 **Du moechtest mitgestalten?**
 Melde dich unter `team@linuxtutorialhub.de` - wir freuen uns ueber Input zu neuen Kursideen oder Bug-Reports.
+

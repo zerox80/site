@@ -27,3 +27,4 @@ Wir gehen Schritt fuer Schritt durch die Konfiguration, bauen einen ersten Alert
 > Best Practice: Dokumentiere Alerts mit Erwartungswert und Runbook, damit On-Call-Teams effizient reagieren koennen.
 
 Im Downloadbereich findest du Beispiel-Dashboards sowie Playbooks fuer Incident Response.
+

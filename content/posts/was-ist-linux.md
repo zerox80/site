@@ -28,3 +28,4 @@ In der Praxis bedeutet das: Du kannst dir genau das System zusammenstellen, das 
 > Tipp: Wenn du dir unsicher bist, starte mit einer Desktop-Distro in einer virtuellen Maschine. So kannst du gefahrlos experimentieren.
 
 Weiter geht es mit den ersten Schritten im Terminal, wo du Befehle, Dateisystem und Benutzerrechte kennenlernst.
+

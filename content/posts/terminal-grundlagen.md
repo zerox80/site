@@ -33,3 +33,4 @@ Ein solides Gefuehl fuer die Shell entwickelt sich durch wiederholtes Ueben. Nut
 - `!!` fuehrt den letzten Befehl erneut aus, `!sudo` wiederholt ihn mit `sudo`.
 
 Durch `man <kommando>` oder `kommando --help` findest du zu jedem Tool weiterfuehrende Beispiele. Unsere Cheatsheets bieten passende Zusammenfassungen zum Download.
+

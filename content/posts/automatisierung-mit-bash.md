@@ -2,7 +2,7 @@
 title = "Automatisierung mit Bash: Aufgaben planen"
 date = 2025-10-12T08:45:00+02:00
 description = "So baust du wiederverwendbare Bash-Skripte, setzt Variablen sinnvoll ein und planst Jobs mit cron."
-summary = "Schreibe robuste Skripte mit Funktionen, Logging und automatisierten Checks – inklusive Cronjob-Vorlagen."
+summary = "Schreibe robuste Skripte mit Funktionen, Logging und automatisierten Checks â€“ inklusive Cronjob-Vorlagen."
 level = "Fortgeschritten"
 categories = ["Automatisierung"]
 tags = ["bash", "cron", "scripting"]
@@ -44,3 +44,4 @@ Mit Funktionen kapselst du wiederkehrende Aufgaben. Kombiniere das mit Parameter
 ```
 
 Uebertrage das Konzept auf `systemd`-Timer, um Abhaengigkeiten und Healthchecks komfortabel zu definieren.
+

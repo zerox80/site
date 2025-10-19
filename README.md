@@ -1,4 +1,4 @@
-# Linux Tutorial Hub – Projektkurzinfo
+# Linux Tutorial Hub â€“ Projektkurzinfo
 
 Dieses Repository enthaelt eine massgeschneiderte Hugo-Website fuer den Linux Tutorial Hub. Die Startseite ist so aufgebaut, dass neue Inhalte automatisch in mehreren Bereichen erscheinen.
 
@@ -24,3 +24,4 @@ hugo server --buildDrafts --disableFastRender
 ## Deployment
 
 Das Projekt generiert statische Assets via `hugo --minify`. Der Output landet standardmaessig im Ordner `public/` und kann auf jeden beliebigen Webserver oder CDN deployt werden.
+
